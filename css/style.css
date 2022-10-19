@@ -1,0 +1,134 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* global reset */
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/* end of global reset */
+
+:root {
+  --main-accent: #ff6c00;
+  --main-black: #303030;
+  --blue-transparent: rgba(157, 164, 189, 0.6);
+  --main-gray: #555555;
+}
+
+/* menu & header */
+.menu-item a {
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33em;
+  letter-spacing: 0.1em;
+}
+.menu-item a:hover {
+  color: var(--main-accent);
+}
+.active a {
+  color: var(--main-accent);
+}
+.top-links a {
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.top-links a:hover {
+  color: var(--main-accent);
+}
+.main-btn {
+  font-family: "Open Sans";
+  color: white;
+  background-color: white;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33em;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  border: 1px solid var(--main-accent);
+  border-radius: 20px;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+.main-btn:hover {
+  color: var(--main-accent);
+}
+
+.social-links a {
+  color: var(--main-black);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36em;
+  letter-spacing: 0.2em;
+}
+.social-links a:hover {
+  color: var(--main-accent);
+}
+
+.sub-title {
+  color: var(--blue-transparent);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36em;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: white;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18em;
+  letter-spacing: 0.05em;
+}
+
+.slide-description {
+  color: var(--blue-transparent);
+  font-size: 18px;
+  line-height: 1.67em;
+  letter-spacing: 0.02em;
+}
+
+/*about section style */
+.black-subtitle {
+  color: var(--main-black);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36em;
+  text-transform: uppercase;
+}
+.about h2 {
+  color: var(--main-black);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17em;
+  letter-spacing: 0.05em;
+}
+.about .after-title {
+  color: var(--main-gray);
+  font-size: 18px;
+  line-height: 1.67em;
+  letter-spacing: 0.02em;
+}
+.main-about {
+  color: var(--main-gray);
+  font-size: 14px;
+  line-height: 1.85em;
+  letter-spacing: 0.02em;
+}
+.about .main-btn {
+  color: var(--main-black);
+}
+
+.about .main-btn:hover {
+  color: var(--main-accent);
+}
