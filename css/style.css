@@ -18,6 +18,13 @@ ul {
   --main-gray: #555555;
 }
 
+/* main css combinations */
+.minimized-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+}
+
 /* menu & header */
 .menu-item a {
   color: white;
@@ -63,20 +70,15 @@ ul {
 
 .social-links a {
   color: var(--main-black);
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36em;
   letter-spacing: 0.2em;
 }
 .social-links a:hover {
   color: var(--main-accent);
 }
 
-.sub-title {
+.sub-title,
+.service-subtitle {
   color: var(--blue-transparent);
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36em;
   text-transform: uppercase;
 }
 
@@ -98,11 +100,11 @@ h1 {
 }
 
 /*about section style */
-.black-subtitle {
+.black-subtitle,
+.benefits-subtitle,
+.barbers-subtitle,
+.works-subtitle {
   color: var(--main-black);
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36em;
   text-transform: uppercase;
 }
 .about h2 {
