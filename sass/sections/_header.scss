@@ -1,56 +1,7 @@
-body {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  color: #555555;
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style: none;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-/* breakpoints */
-.container {
-  min-width: 320px;
-  max-width: 1170px;
-  padding-left: 31px;
-  padding-right: 31px;
-  margin: auto;
-}
-
 .page-header {
   position: absolute;
   z-index: 999;
 }
-
 .page-header .container {
   min-height: 80px;
   display: flex;
@@ -70,6 +21,7 @@ img {
     display: none;
   }
 }
+
 .menu .link {
   padding: 10px;
   color: inherit;
@@ -87,6 +39,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+
   margin: 0;
   padding: 0;
   background-color: transparent;
@@ -101,6 +54,7 @@ img {
     display: none;
   }
 }
+
 .menu-toggle:hover,
 .menu-toggle:focus {
   background-color: rgba(0, 0, 0, 0.1);
@@ -115,6 +69,7 @@ img {
   padding: 32px;
   background-color: #3f51b5;
   z-index: 999;
+
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 }
@@ -142,26 +97,3 @@ img {
   color: #fff;
   text-decoration: none;
 }
-
-.slide-1 {
-  background-image: url("/images/slide-1-mobile.jpg");
-  background-repeat: no-repeat;
-}
-
-.slide-2 {
-  background-image: url("/images/slide-2-mobile.jpg");
-  background-repeat: no-repeat;
-}
-
-.slide-3 {
-  background-image: url("/images/slide-3-mobile.jpg");
-  background-repeat: no-repeat;
-}
-
-.slick-slide {
-  height: 580px;
-}
-
-.slider__arrows {
-  display: none;
-}/*# sourceMappingURL=main.css.map */

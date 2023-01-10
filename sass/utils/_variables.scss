@@ -1,0 +1,58 @@
+$colors: (
+  "main-grey": #9da4bd,
+  "main-grey-transparent-60": rgba(157, 164, 189, 0.6),
+  "main-grey-transparent-40": rgba(157, 164, 189, 0.4),
+  "main-black": #303030,
+  "body-grey": #555555,
+  "main-orange": #ff6c00,
+  "light-bg": #f7f7f7,
+);
+@function getColor($key) {
+  @return map-get($colors, $key);
+}
+
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  color: getColor(body-grey);
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* breakpoints */
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1200px;
+
+.container {
+  min-width: 320px;
+  max-width: 1170px;
+  padding-left: 31px;
+  padding-right: 31px;
+  margin: auto;
+}
