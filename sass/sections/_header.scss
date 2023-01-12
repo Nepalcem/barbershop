@@ -1,12 +1,18 @@
-.page-header {
+.header {
   position: absolute;
   z-index: 999;
+  width: 100%;
+  &__links {
+    display: none;
+  }
 }
-.page-header .container {
+.header .container {
   min-height: 80px;
+  padding-top: 40px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
+  gap: 70%;
 }
 
 .menu {
@@ -39,6 +45,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
 
   margin: 0;
   padding: 0;
@@ -96,4 +103,8 @@
   padding: 10px;
   color: #fff;
   text-decoration: none;
+}
+.logo__vector {
+  width: 69px;
+  height: 56px;
 }

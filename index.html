@@ -18,18 +18,19 @@
 </head>
 
 <body>
-  <header class="page-header">
+  <header class="header">
     <div class="container">
+      <div class="logo">
+        <svg class="logo__vector">
+          <use href="images/symbol-defs.svg#logo-mobile"></use>
+        </svg>
+      </div>
       <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-        <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd"
-            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-            clip-rule="evenodd"></path>
+        <svg width="40" height="40" fill="currentColor" class="mobile-menu-toggle">
+          <use href="/images/symbol-defs.svg#mobile-menu-toggle"></use>
         </svg>
       </button>
-      <div class="logo">
-        <a href="index.html"><img src="images/logo.svg" alt="logo" /></a>
-      </div>
+
       <nav>
         <ul class="menu">
           <li class=""><a href="">About</a></li>
@@ -38,8 +39,8 @@
           <li class="""><a href="">Contacts</a></li>
       </ul>
     </nav>
-    <div class="">
-      <a href=" tel:+380441111111">+38 044 111 11 11</a>
+    <div class=" header__links">
+            <a href=" tel:+380441111111">+38 044 111 11 11</a>
             <button type="button" class="" href="#">Online-booking</button>
     </div>
     </div>

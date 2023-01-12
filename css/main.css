@@ -46,16 +46,22 @@ img {
   margin: auto;
 }
 
-.page-header {
+.header {
   position: absolute;
   z-index: 999;
+  width: 100%;
+}
+.header__links {
+  display: none;
 }
 
-.page-header .container {
+.header .container {
   min-height: 80px;
+  padding-top: 40px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
+  gap: 70%;
 }
 
 .menu {
@@ -87,6 +93,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
   margin: 0;
   padding: 0;
   background-color: transparent;
@@ -143,19 +150,27 @@ img {
   text-decoration: none;
 }
 
+.logo__vector {
+  width: 69px;
+  height: 56px;
+}
+
 .slide-1 {
   background-image: url("/images/slide-1-mobile.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .slide-2 {
   background-image: url("/images/slide-2-mobile.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .slide-3 {
   background-image: url("/images/slide-3-mobile.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .slick-slide {
